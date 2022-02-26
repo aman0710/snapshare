@@ -1,7 +1,6 @@
 from unicodedata import name
 from django.urls import path
 from . import views
-import _tkinter
 
 urlpatterns = [
     path('', views.gallery, name='gallery'),
