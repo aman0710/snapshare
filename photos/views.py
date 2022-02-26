@@ -1,6 +1,7 @@
 from doctest import debug_script
 from multiprocessing import context
 from pydoc import describe
+import _tkinter
 from tkinter.messagebox import NO
 from unicodedata import category
 from django.shortcuts import render, redirect
