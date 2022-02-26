@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY_1')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['snapshare0710.herokuapp.com']
 
 
 # Application definition
